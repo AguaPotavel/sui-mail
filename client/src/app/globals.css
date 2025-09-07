@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bubble-bg: #000;
+  }
+
+  body {
+    background-color: var(--color-bubble-bg);
+    color: var(--color-bubble-text);
+  }
+}

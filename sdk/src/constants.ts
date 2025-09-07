@@ -1,0 +1,12 @@
+export const SUI_PACKAGE_ID =
+  process.env.SUI_PACKAGE_ID ||
+  "0xb7f5a219a0173cf19dececd11ce17e76b4b97f77f353b274eeaf0cbe572f9c43";
+export const CHAT_CONFIG_OBJECT_ID =
+  process.env.CHAT_CONFIG_OBJECT_ID ||
+  "0xa03a10658628fcb92b8e951fdd2e23cd356920f7bff24230ae1cf6b0bd7efc3f";
+export const MAILBOX_CONFIG_OBJECT_ID =
+  process.env.MAILBOX_CONFIG_OBJECT_ID ||
+  "0xf7006cba397c41c9b5ae343d0a417c12a0862262350472c22b58136cd148bd40";
+export const MAILBOX_GLOBAL_OBJECT_ID =
+  process.env.MAILBOX_GLOBAL_OBJECT_ID ||
+  "0xff74c18f901ec60bea2709bde637a5e90971b2ab938da04dbf70ccd52c2d75d4";
